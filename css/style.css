@@ -1,0 +1,325 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+     !important;
+    SS
+}
+
+/* ----------------------lato font start----------------- */
+
+@font-face {
+    font-family: lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url(../font/Lato-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: lato-light;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: lato-black;
+    src: url(../font/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: lato-thin;
+    src: url(../font/Lato-Thin.ttf);
+}
+
+/* ----------------------lato font End----------------- */
+
+/* ----------------------ROBOTO font start----------------- */
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-black;
+    src: url(../font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+/* ----------------------ROBOTO font End----------------- */
+
+/* ----------------FOR DOT-------------- */
+
+.point:after {
+    content: '.';
+}
+
+.point:after {
+    color: #3333ff;
+}
+
+/* ----------------FOR DOT-------------- */
+
+/* -------------------FONT SIZE------------------------ */
+
+.f-14 {
+    font-size: 14px !important;
+}
+
+.f-15 {
+    font-size: 15px !important;
+}
+
+.f-16 {
+    font-size: 16px !important;
+}
+
+.f-18 {
+    font-size: 18px !important;
+}
+
+.f-40 {
+    font-size: 40px !important;
+}
+
+.lato {
+    font-family: lato !important;
+}
+
+.lato-bold {
+    font-family: lato-bold !important;
+}
+
+.black {
+    color: black !important;
+}
+
+/* -------------------FONT SIZE------------------------ */
+
+/* --------------------main-manu------------------- */
+
+.main-manu li a {
+    font-size: 12px;
+    font-family: lato-bold !important;
+    font-weight: 700;
+    color: #252525 !important;
+    padding-left: 5px;
+}
+
+#navbar {
+    transition: 0.5s all ease;
+}
+
+.main-manu li .logo {
+    font-family: lato-bold !important;
+    font-size: 24px;
+}
+
+/* --------------------main-manu END------------------- */
+::-webkit-scrollbar {
+    color: lawngreen !important;
+    width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px !important;
+    background-color: #2929d29e;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+::-webkit-scrollbar-track: {
+    border: 10px !important;
+    color: black !important;
+}
+
+/* --------------------HELLO SECTION START------------------- */
+
+#hello {
+    margin-top: 100px;
+    padding: 40px 0px;
+    margin-bottom: 30px !important;
+
+}
+
+.about-me-title {
+    font-family: lato-bold;
+}
+
+.about-me-info p span {
+    font-size: 12px;
+    font-family: roboto !important;
+}
+
+.span-title {
+    margin-left: 60px;
+    font-size: 14px !important;
+}
+
+.contact-btn {
+    background: #3333ff !important;
+    color: white;
+    min-width: 170px;
+    text-align: center;
+    padding: 15px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 2px !important;
+    font-size: 12px;
+    line-height: 1.66;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    transition: .4s all ease-in-out;
+}
+
+.gry-btn {
+    min-width: 170px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 2px !important;
+    font-size: 12px;
+    line-height: 1.66;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    background-color: #c7c7c76e;
+    transition: .4s all ease-in-out;
+}
+
+.hover-gry:hover .gry-btn {
+    background-color: #efefef !important;
+    box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.5) !important;
+}
+
+.contact-sw:hover .contact-btn {
+    color: white !important;
+    box-shadow: 10px 10px 20px rgba(37, 30, 30, 0.4) !important;
+    transition: .7s all ease-in-out;
+}
+
+/* --------------------HELLO SECTION END------------------- */
+
+/* --------------------EXP SECTION START------------------- */
+
+#skills,
+#experience,
+#education,
+#portfolio,
+#feedback,
+#contact,
+#testimonial {
+    padding: 40px 0px;
+}
+
+.exDate {
+    padding: 2px !important;
+    font-size: 13px !important;
+
+}
+
+.state {
+    transition: 0.4s all ease-in-out;
+    border: 1px solid #eee !important;
+    border-radius: 2px !important;
+
+}
+
+.hover-state:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.2);
+}
+
+/* --------------------EXP SECTION END------------------- */
+#education {
+    padding: 100px 0px !important;
+}
+
+.img-hover {
+    transition: 0.7s all;
+    width: 100%;
+    height: 100% !important;
+}
+
+.img-inner {
+    overflow: hidden !important;
+}
+
+.img-inner:hover .img-hover {
+    transform: scale(1.3);
+}
+
+.mix-control a {
+    color: black !important;
+    font-size: 13px;
+    font-family: Roboto !important;
+    font-weight: 500 !important;
+}
+
+.media-img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.input-border {
+    border: 2px solid #e3e3e3 !important;
+    border-radius: 2px !important;
+    padding: 25px 20px !important;
+    transition: 0.6s all ease;
+}
+
+.form-group:hover .input-border {
+    border: 2px solid #3333ff !important;
+    display: block;
+}
+
+.footer {
+    background: #efefef;
+}
+
+/*  ------------------------SCROLL TO TOP------------- */
+
+.go-top {
+    position: fixed;
+    bottom: 1px;
+    right: 0.5em;
+    text-decoration: none;
+    color: #3333ff;
+    font-size: 34px;
+    padding: 1em;
+    display: none;
+}
+
+.go-top:hover {
+    color: ;
+}
+
+/* ------------------------SCROLL TO TOP------------- */
+
+#portfolio {
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-iteration-count: initial;
+}
+
+.testImg {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.icon {
+    color: black !important;
+}
