@@ -1,8 +1,15 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
-     !important;
-    SS
+    font-family: 'Josefin Sans', sans-serif !important;
 }
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: #fff url(../load.gif) no-repeat center;
+    position: fixed;
+    z-index: 999999 !important;
+}
+
 
 /* ----------------------lato font start----------------- */
 
@@ -32,7 +39,9 @@ body {
     src: url(../font/Lato-Thin.ttf);
 }
 
+
 /* ----------------------lato font End----------------- */
+
 
 /* ----------------------ROBOTO font start----------------- */
 
@@ -61,7 +70,148 @@ body {
     src: url(../font/Roboto-Medium.ttf);
 }
 
+
 /* ----------------------ROBOTO font End----------------- */
+
+.navbar-toggler-icon:focus {
+    outline: none !important;
+}
+
+.menu-area {
+    background: #fff
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border: 0 solid transition !important;
+    border: 0 solid rgba(0, 0, 0, .15);
+    border-radius: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.mainmenu a,
+.navbar-default .navbar-nav>li>a,
+.mainmenu ul li a,
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 15px 15px;
+    font-family: 'Roboto', sans-serif;
+    display: block !important;
+}
+
+.mainmenu .active a,
+.mainmenu .active a:focus,
+.mainmenu .active a:hover,
+.mainmenu li a:hover,
+.mainmenu li a:focus,
+.navbar-default .navbar-nav>.show>a,
+.navbar-default .navbar-nav>.show>a:focus,
+.navbar-default .navbar-nav>.show>a:hover {
+    color: #fff;
+    background: #144db2;
+    outline: 0;
+    text-decoration: none !important;
+}
+
+
+/*==========Sub Menu=v==========*/
+
+.mainmenu .collapse ul>li:hover>a {
+    background: #144db2;
+}
+
+.mainmenu .collapse ul ul>li:hover>a,
+.navbar-default .navbar-nav .show .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .show .dropdown-menu>li>a:hover {
+    background: #144db2;
+}
+
+.mainmenu .collapse ul ul ul>li:hover>a {
+    background: #4CAF50;
+}
+
+.mainmenu .collapse ul ul,
+.mainmenu .collapse ul ul.dropdown-menu {
+    background: #1565C0;
+}
+
+.mainmenu .collapse ul ul ul,
+.mainmenu .collapse ul ul ul.dropdown-menu {
+    background: #1E88E5
+}
+
+.mainmenu .collapse ul ul ul ul,
+.mainmenu .collapse ul ul ul ul.dropdown-menu {
+    background: #64B5F6
+}
+
+
+/******************************Drop-down menu work on hover**********************************/
+
+.mainmenu {
+    background: none;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+    .mainmenu .collapse ul li:hover>ul {
+        display: block
+    }
+    .mainmenu .collapse ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 250px;
+        display: none
+    }
+    /*******/
+    .mainmenu .collapse ul ul li {
+        position: relative
+    }
+    .mainmenu .collapse ul ul li:hover>ul {
+        display: block
+    }
+    .mainmenu .collapse ul ul ul {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 250px;
+        display: none
+    }
+    /*******/
+    .mainmenu .collapse ul ul ul li {
+        position: relative
+    }
+    .mainmenu .collapse ul ul ul li:hover ul {
+        display: block
+    }
+    .mainmenu .collapse ul ul ul ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        min-width: 250px;
+        display: none;
+        z-index: 1
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav .show .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 35px
+    }
+    .navbar-nav .show .dropdown-menu .dropdown-menu .dropdown-menu>li>a {
+        padding: 16px 15px 16px 45px
+    }
+}
+
 
 /* ----------------FOR DOT-------------- */
 
@@ -73,7 +223,9 @@ body {
     color: #3333ff;
 }
 
+
 /* ----------------FOR DOT-------------- */
+
 
 /* -------------------FONT SIZE------------------------ */
 
@@ -109,7 +261,9 @@ body {
     color: black !important;
 }
 
+
 /* -------------------FONT SIZE------------------------ */
+
 
 /* --------------------main-manu------------------- */
 
@@ -130,7 +284,9 @@ body {
     font-size: 24px;
 }
 
+
 /* --------------------main-manu END------------------- */
+
 ::-webkit-scrollbar {
     color: lawngreen !important;
     width: 8px !important;
@@ -142,10 +298,11 @@ body {
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5) !important;
 }
 
-::-webkit-scrollbar-track: {
+::-webkit-scrollbar-track {
     border: 10px !important;
     color: black !important;
 }
+
 
 /* --------------------HELLO SECTION START------------------- */
 
@@ -153,7 +310,6 @@ body {
     margin-top: 100px;
     padding: 40px 0px;
     margin-bottom: 30px !important;
-
 }
 
 .about-me-title {
@@ -211,7 +367,9 @@ body {
     transition: .7s all ease-in-out;
 }
 
+
 /* --------------------HELLO SECTION END------------------- */
+
 
 /* --------------------EXP SECTION START------------------- */
 
@@ -228,14 +386,12 @@ body {
 .exDate {
     padding: 2px !important;
     font-size: 13px !important;
-
 }
 
 .state {
     transition: 0.4s all ease-in-out;
     border: 1px solid #eee !important;
     border-radius: 2px !important;
-
 }
 
 .hover-state:hover {
@@ -243,7 +399,9 @@ body {
     box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.2);
 }
 
+
 /* --------------------EXP SECTION END------------------- */
+
 #education {
     padding: 100px 0px !important;
 }
@@ -290,6 +448,7 @@ body {
     background: #efefef;
 }
 
+
 /*  ------------------------SCROLL TO TOP------------- */
 
 .go-top {
@@ -303,9 +462,6 @@ body {
     display: none;
 }
 
-.go-top:hover {
-    color: ;
-}
 
 /* ------------------------SCROLL TO TOP------------- */
 
@@ -322,4 +478,8 @@ body {
 
 .icon {
     color: black !important;
+}
+
+.card .card-img {
+    cursor: pointer;
 }

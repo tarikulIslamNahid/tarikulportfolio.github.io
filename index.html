@@ -2,1226 +2,1199 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- ------------BOOTSTRAP CSS---------- -->
+    <!-- ------------BOOTSTRAP CSS---------- -->
 
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-  <!-- ------------BOOTSTRAP CSS---------- -->
+    <!-- ------------BOOTSTRAP CSS---------- -->
 
-  <!-- ------------MAIN CSS---------- -->
+    <!-- ------------MAIN CSS---------- -->
 
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!-- ------------MAIN CSS---------- -->
-  <!-- ------------ANIMETED  CSS---------- -->
-  <link rel="stylesheet" href="css/animate.css">
-  <!-- ------------ANIMETED CSS---------- -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap" rel="stylesheet">
-  <!-- ------------BOOTSTRAP ICON---------- -->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-  <!-- ------------BOOTSTRAP ICON---------- -->
+    <!-- ------------MAIN CSS---------- -->
+    <!-- ------------ANIMETED  CSS---------- -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- ------------ANIMETED CSS---------- -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&display=swap" rel="stylesheet">
+    <!-- ------------BOOTSTRAP ICON---------- -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <!-- ------------BOOTSTRAP ICON---------- -->
 
-  <title>Tarikul.</title>
+    <title>Tarikul.</title>
 </head>
 
-<body>
-  <!-- ------------------------------NAVBAR START------------------------- -->
+<body onload="loadFunction()">
+    <div id="loading">
 
-  <nav id="navbar" class="navbar navbar-expand-md py-3 shadow-sm navbar-light bg-white fixed-top  ">
-    <div class="container p-0 ">
-      <a class="navbar-brand logo point font-weight-bolder">Tarikul</a>
-      <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
-        aria-expanded="false" aria-label="Toggle navigation">
+    </div>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                NAVBAR START                             -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <nav id="navbar" class="navbar navbar-expand-md py-3 shadow-sm navbar-light bg-white fixed-top  ">
+
+        <a class="navbar-brand logo point font-weight-bolder ml-4">Tarikul</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div id="my-nav" class="collapse d-flex justify-content-end  navbar-collapse  text-center">
-        <ul class="navbar-nav main-manu">
-          <li class="nav-item active">
-            <a class="nav-link py-3" href="#hello">HELLO <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link pl-3 py-3" href="#skills">SKILLS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-3 py-3" href="#experience">EXPERIENCE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-3 py-3" href="#education">EDUCATION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-3 py-3" href="#portfolio">PORTFOLIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-3 py-3" href="#feedback">FEEDBACK</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link pl-3 py-3" href="#testimonial">TESTIMONIAL</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link pl-3 py-3" href="#contact">CONTACT ME</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- ------------------------------NAVBAR END------------------------- -->
+        <div id="my-nav" class="collapse  navbar-collapse text-center">
+            <ul class="navbar-nav main-manu ml-xl-auto mr-xl-4 ">
+                <li class="nav-item active">
+                    <a class="nav-link py-3" href="#hello">HELLO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link pl-3 py-3" href="#skills">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 py-3" href="#experience">EXPERIENCE</a>
+                </li>
 
-  <!-- ------------------------------HELLO START------------------------- -->
-  <section id="hello">
-    <div class="container p-0 ">
-      <div class="row">
-        <div class="col-lg-6 fast col-md-6 col-sm-10 wow slideInLeft">
-          <div class="about-me">
-            <div class="about-me-title">
-              <h1 class="point ">I am Tarikul Islam</h1>
-            </div>
-            <div class="about-me-text">
-              <span class="text-muted">
-                I am a Web Developer located in Faridpur, Bangladesh. I
-                currently work as a part time Remote Junior Web Developer for
-                Coolor, located in EXctra. I am looking to take on more work
+                <li class="nav-item">
+                    <a class="nav-link pl-3 py-3" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 py-3" href="#feedback">FEEDBACK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 py-3" href="#testimonial">TESTIMONIAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-3 py-3" href="#contact">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                NAVBAR END                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               HELLO START                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <section id="hello">
+        <div class="container p-0 ">
+            <div class="row">
+                <div class="col-lg-6 fast col-md-6 col-sm-10 wow slideInLeft">
+                    <div class="about-me">
+                        <div class="about-me-title">
+                            <h1 class="point ">I am Tarikul Islam</h1>
+                        </div>
+                        <div class="about-me-text">
+                            <span class="text-muted">
+                I am a Web Developer located in Keranigonj, Bangladesh. I am looking to take on more work
                 and to increase my skills as a Web Developer.
               </span>
-            </div>
-            <div class="about-me-info pt-4 pb-0">
-              <p>
-                <span class="font-weight-bolder ">PHONE</span>
-                <span class="text-muted span-title pl-3">+880 1977581100</span>
-              </p>
-              <p>
-                <span class="font-weight-bolder ">EMAIL </span>
-                <span class="text-muted span-title pl-4">suvo569@gmail.com</span>
-              </p>
-              <p>
-                <span class="font-weight-bolder ">ADDRESS</span>
-                <span class="text-muted span-title ">7800 Farirpur, Bangladesh.</span>
-              </p>
-              <p>
-                <span class="font-weight-bolder ">SOCIAL</span>
-                <span class="social-icon span-title pl-3">
-                  <a href=""><i class="pr-3  fa fa-facebook"></i></a>
-                  <a href=""><i class="fa pr-3  fa-twitter"></i></a>
-                  <a href=""><i class="fa pr-3 fa-instagram"></i></a>
-                  <a href=""><i class="fa pr-3 fa-linkedin"></i></a>
-                  <a href=""><i class="fa pr-3  fa-behance"></i></a>
-                  <a href=""><i class="fa pr-3 fa-dribbble"></i></a>
-                  <a href=""><i class="fa pr-3 fa-github"></i></a>
+                        </div>
+                        <div class="about-me-info pt-4 pb-0">
+                            <p>
+                                <span class="font-weight-bolder ">PHONE</span>
+                                <span class="text-muted span-title pl-3">+880 1977581100</span>
+                            </p>
+                            <p>
+                                <span class="font-weight-bolder ">EMAIL </span>
+                                <span class="text-muted span-title pl-4">contact@tarikuldev.com</span>
+                            </p>
+                            <p>
+                                <span class="font-weight-bolder ">ADDRESS</span>
+                                <span class="text-muted span-title ">kholamora Model Town, Keranigonj, Bangladesh.</span>
+                            </p>
+                            <p>
+                                <span class="font-weight-bolder ">SOCIAL</span>
+                                <span class="social-icon span-title pl-3">
+                  <a target="_blank" href="https://www.facebook.com/md.tarekul.313?ref=bookmarks"><i class="pr-3  fa fa-facebook"></i></a>
+                  <a target="_blank"  href="https://twitter.com/front_designer"><i class="fa pr-3  fa-twitter"></i></a>
+                  <a target="_blank"  href="https://github.com/tarikulIslamNahid"><i class="fa pr-3 fa-github"></i></a>
+                  <a target="_blank"  href="https://www.linkedin.com/in/tarikul15/"><i class="fa pr-3 fa-linkedin"></i></a>
+                  <a target="_blank"  href="#"><i class="fa pr-3  fa-behance"></i></a>
+                  <a target="_blank"  href="#"><i class="fa pr-3 fa-dribbble"></i></a>
+                  <a target="_blank"  href="#"><i class="fa pr-3 fa-instagram"></i></a>
+
                 </span>
-              </p>
-            </div>
-            <div class="about-btn">
-              <span class="contact-sw">
+                            </p>
+                        </div>
+                        <div class="about-btn">
+                            <span class="contact-sw">
                 <a href="#contact" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-              <span class="hover-gry">
+                            <span class="hover-gry">
                 <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
               </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fast col-md-6 col-sm-10 wow slideInRight">
+                    <div class="about-img shadow-lg img-thumbnail">
+                        <img class="img-fluid" src="image/image.jpg" alt="" />
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-6 fast col-md-6 col-sm-10 wow slideInRight">
-          <div class="about-img shadow-lg img-thumbnail">
-            <img class="img-fluid" src="image/image.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ------------------------------HELLO END------------------------- -->
+    </section>
 
-  <!-- ------------------------------SKILLS START------------------------- -->
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                HELLO END                                -->
+    <!-- ----------------------------------------------------------------------- -->
 
-  <section id="skills" class="border-top ">
-    <div class="container p-0">
-      <div class="row">
-        <div class="col-lg-4 mt-3">
-          <div class="section-sidebar ">
-            <h2 class="point">Skills</h2>
-            <span class="text-muted f-15">
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              SKILLS START                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <section id="skills" class="border-top ">
+        <div class="container p-0">
+            <div class="row">
+
+                <!-- ----------------------------- SIDE TITLE START ------------------------------ -->
+                <div class="col-lg-4 mt-3">
+                    <div class="section-sidebar ">
+                        <h2 class="point">Skills</h2>
+                        <span class="text-muted f-15">
               I am inspired by creating great work with people who are as
               passionate as I am about building something awesome
             </span>
-          </div>
+                    </div>
+                </div>
+                <!-- --------------------------- SIDE TITLE END ---------------------------- -->
+
+
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <!-- ----------------------------- SIDE ITEMS START ------------------------------ -->
+                        <div class="col-lg-6 col-md-6 col-sm-10 m-auto ">
+                            <div class="skill-box pb-5 border-bottom ">
+                                <h4>Web Development</h4>
+                                <span class="text-muted f-15">Javascript, PHP, Mysql.</span>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- SIDE ITEMS START END------------------------------ -->
+
+
+                        <!-- ----------------------------- SIDE ITEMS START ------------------------------ -->
+                        <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
+                            <div class="skill-box pb-5 border-bottom">
+                                <h4>UI\UX Design</h4>
+                                <span class="text-muted f-15">Photoshop, Illustrator, Sketch, Usability Testing.</span>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- SIDE ITEMS END ------------------------------ -->
+
+
+                        <!-- ----------------------------- SIDE ITEMS START ------------------------------ -->
+                        <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
+                            <div class="skill-box pt-4">
+                                <h4>Frontend Development</h4>
+                                <span class="text-muted f-15">HTML, CSS, SASS, Bootstrap, Wordpress, Jquery.</span>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- SIDE ITEMS END ------------------------------ -->
+
+                        <!-- ----------------------------- SIDE ITEMS START ------------------------------ -->
+
+                        <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
+                            <div class="skill-box pt-4">
+                                <h4>Consulting & SEO Audit</h4>
+                                <span class="text-muted f-15">Semrush, WebCEO, Google Analytics..</span>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- SIDE ITEMS END ------------------------------ -->
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-10 m-auto ">
-              <div class="skill-box pb-5 border-bottom ">
-                <h4>Web Development</h4>
-                <span class="text-muted f-15">Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js,
-                  MongoDB, Redis, PostgreSQL, WebStorm.</span>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
-              <div class="skill-box pb-5 border-bottom">
-                <h4>UI\UX Design</h4>
-                <span class="text-muted f-15">Photoshop, Illustrator, Sketch, Axure, XMind, Prototyping,
-                  Wireframing, User Research, Usability Testing.</span>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
-              <div class="skill-box pt-4">
-                <h4>Frontend Development</h4>
-                <span class="text-muted f-15">HTML, CSS, LESS, SASS, Bootstrap, Wordpress, Drupal,
-                  Phonegap / Cordova, Ionic, Foundation, Angular.js.</span>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-10 m-auto">
-              <div class="skill-box pt-4">
-                <h4>Consulting & SEO Audit</h4>
-                <span class="text-muted f-15">Screaming Frog, Woorank, Raventools, Semrush, Moz, WebCEO,
-                  Google Analytics, ChartBeat, CrazyEgg..</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ------------------------------SKILLS END------------------------- -->
-
-  <!-- ------------------------------EXP START------------------------- -->
-
-  <section id="experience" class="border-top bg-light">
-    <div class="container p-0">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-
-          <div class="h5 my-3">My Experience</div>
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">Senionr Web Developer</p>
-
-            <span class="bg-primary exDate rounded ">2015 - Present | Google</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">Front-end Developer</p>
-
-            <span class="bg-primary exDate rounded ">2013 - 2015 | Facebook Inc.</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">UI Developer</p>
-
-            <span class="bg-primary exDate rounded ">2011 - 2013 | Envato.</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-
-        </div>
+    </section>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              SKILLS END                                  -->
+    <!-- ----------------------------------------------------------------------- -->
 
 
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                EXP START                                -->
+    <!-- ----------------------------------------------------------------------- -->
 
-
-        <div class="col-lg-6 col-md-6 col-sm-6">
-
-          <div class="h5 my-3">My Education</div>
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">Master in Accounting</p>
-
-            <span class="bg-primary exDate rounded ">2006-2008</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">Account University</p>
-
-            <span class="bg-primary exDate rounded ">2006-2008</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-
-          <div class="about-row p-4 mt-4 bg-white state hover-state">
-            <p class="h4  ">Account University</p>
-
-            <span class="bg-primary exDate rounded ">2006-2008</span>
-            <p class="text-muted f-15 my-2">
-              Collaborate with creative and development teams on the execution of ideas.
-            </p>
-          </div>
-
-        </div>
-
-
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-6 col-sm-6 ">
-          <p class="h3 my-3">Design Skills</p>
-          <div class="p-box state hover-state">
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Graphic design</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Logo design</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">UI design</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Photoshop </h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-
-
-        <div class="col-lg-6 col-sm-6 ">
-          <p class="h3 my-3">Coding Skills</p>
-          <div class="p-box state hover-state">
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Bootstrap</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Javascript</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">PHP</h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="mb-4 pb-2 ">
-              <h5 class="my-4 mx-4">Juqary </h5>
-              <div class="progress mt-2 mx-4" style="height: 9px;">
-                <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-  <!-- ------------------------------EXP END------------------------- -->
-
-  <!-- -------------------------EDUCATION START------------------------- -->
-  <section id="education" class="border-top py5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="section-sidebar">
-            <h2 class="point lato-bold">Education</h2>
-            <span class="text-muted">All my life I have been driven by my strong belief that
-              education is important. I try to learn something new every
-              single day.</span>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-12 border-bottom">
-              <div class="about-row">
-                <span class="h5">Google Developer Training</span>
-                <span class="text-muted f-15 pl-2">Google</span>
-                <p>Apr, 2015 — May, 2015</p>
-                <p class="text-muted">
-                  Learn to use App Engine, Google's Platform as a Service, to
-                  build the backend for web apps that scale not only as your
-                  user base grows but as request volumes peaks with sudden
-                  demand.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-12  pt-3">
-              <div class="about-row">
-                <span class="h5">Software Development</span>
-                <span class="text-muted f-15 pl-2">Boston University</span>
-                <p>Jan, 2005 — May, 2009</p>
-                <p class="text-muted">
-                  BSc (Hons) in Software Development. Outstanding Academic
-                  Achievement Award.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- -------------------------EDUCATION END------------------------- -->
-
-  <!-- -------------------------PROTFOLIO START------------------------- -->
-
-  <section id="portfolio" class="border-top wow bounceIn">
-    <div class="container p-0">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-title">
-            <h2 class="point lato-bold mb-3">Portfolio</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="portfolio-sort">
-            <!-- -------------------CONTROLS------------------- -->
-
-            <div class="controls mix-control ">
-              <a href="#all" class="control pr-4  mr-2 text-muted border-0" data-filter="all">ALL PROJECTS</a>
-              <a href="#web" class="control pr-4 mr-2  text-muted" data-filter=".web">
-                WEB SITES</a>
-              <a href="#ui" class="control pr-4 mr-2 text-muted" data-filter=".ui">UI\UX DESIGN</a>
-
-              <a href="#font" class="control  text-muted" data-filter=".font">FRONTEND</a>
-
-            </div>
-            <!-- -------------------CONTROLS END------------------- -->
-          </div>
-        </div>
-        <!-- -------------MODAL SECTION START--------------- -->
-
-        <!-- -----------MODAL----------- -->
-        <div class="modal fade " id="my-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-          aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Patty</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL--END---------- -->
-
-
-        <!-- -----------MODAL-1---------- -->
-        <div class="modal fade " id="my-modal-1" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Phoenix</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-1-END---------- -->
-
-        <!-- -----------MODAL-2---------- -->
-        <div class="modal fade " id="my-modal-2" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for eWesta</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-2-END---------- -->
-
-        <!-- -----------MODAL-3---------- -->
-        <div class="modal fade " id="my-modal-3" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for eWesta</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-3-END---------- -->
-
-        <!-- -----------MODAL-4---------- -->
-        <div class="modal fade " id="my-modal-4" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Foody</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-4-END---------- -->
-
-        <!-- -----------MODAL-5---------- -->
-        <div class="modal fade " id="my-modal-5" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Stark</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-5-END---------- -->
-
-        <!-- -----------MODAL-6---------- -->
-        <div class="modal fade " id="my-modal-6" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Te4h</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-6-END---------- -->
-
-        <!-- -----------MODAL-7---------- -->
-        <div class="modal fade " id="my-modal-7" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-lg  " role="document">
-            <div class="modal-content ">
-              <div class="modal-body my-4 mx-3">
-                <div class="modal-title ">
-                  <span class="h1 ml-1 point lato bold">Startup website for Zebra</span>
-                </div>
-                <div class="modal-desc ml-1 mt-2 text-muted f-15">
-                  <p>
-                    Patty Startup is the perfect shop. I did my best and
-                    prepared 12 highly customizable pages to present all
-                    startup's products. Upon opening this product you will see
-                    stylish and unique layouts thoroughly organized into their
-                    appropriate groups.
-                  </p>
-                </div>
-                <div class="modal-info ml-1">
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Stack</span>
-                    <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
-                  </p>
-                  <p>
-                    <span class="text-uppercase font-weight-bold">Date</span>
-                    <span class="text-muted f-15 pl-4"> April, 2017 </span>
-                  </p>
-                </div>
-                <div class="modal-img">
-                  <img class="img-fluid card-img mt-3 " src="image/modal img/modal-image-1.jpg" alt="" />
-                  <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/modal-image-2.jpg" alt="" />
-                </div>
-                <div class="about-btn">
-                  <span class="contact-sw">
-                    <a href="#" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
-                  <span class="hover-gry">
-                    <a href="image/CV.pdf" data-target="#" class="btn  gry-btn">DOWNLOAD CV</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- -----------MODAL-7-END---------- -->
-
-        <!-- -------------------MODAL SECTION END----------------- -->
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-12">
-          <div class="portfolio">
+    <section id="experience" class="border-top bg-light">
+        <div class="container p-0">
             <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-6 mix ui  m-auto" data-toggle="modal" data-target="#my-modal">
+                <div class="col-lg-6 col-md-6 col-sm-6 wow slideInLeft slow">
 
-                <div class="card  border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-1.jpg " alt="" /></span>
+                    <div class="h5 my-3">My Experience</div>
 
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Shop web app “Patty”</h5>
-                    <p class="card-text">April, 2017</p>
-                  </div>
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">Senionr Web Developer</p>
+                        <span class="bg-primary exDate rounded ">2015 - Present | Google</span>
+                        <p class="text-muted f-15 my-2">
+                            Collaborate with creative and development teams on the execution of ideas.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">Front-end Developer</p>
+                        <span class="bg-primary exDate rounded ">2013 - 2015 | Facebook Inc.</span>
+                        <p class="text-muted f-15 my-2">
+                            Collaborate with creative and development teams on the execution of ideas.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">UI Developer</p>
+                        <span class="bg-primary exDate rounded ">2011 - 2013 | Envato.</span>
+                        <p class="text-muted f-15 my-2">
+                            Collaborate with creative and development teams on the execution of ideas.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
                 </div>
 
-              </div>
 
-              <div class="col-md-3 col-sm-6 col-xs-6 mix web m-auto" data-toggle="modal" data-target="#my-modal-1">
 
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-2.jpg " alt="" /></span>
 
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Startup website “Phoenix”</h5>
-                    <p class="card-text">March, 2016</p>
-                  </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 wow slideInRight  slow">
+
+                    <div class="h5 my-3">My Education</div>
+
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">Junior School certificate</p>
+                        <span class="bg-primary exDate rounded ">2013-2014</span>
+                        <p class="text-muted f-15 my-2">
+                            Naya Bazer High School.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">Secondary School Certificate</p>
+
+                        <span class="bg-primary exDate rounded ">2015-2016</span>
+                        <p class="text-muted f-15 my-2">
+                            Naya Bazer High School.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
+
+                    <!-- ----------------------------- EXP ITEMS START ------------------------------ -->
+                    <div class="about-row p-4 mt-4 bg-white state hover-state">
+                        <p class="h4  ">Diploma in Civil Engineering</p>
+
+                        <span class="bg-primary exDate rounded ">2016-2020</span>
+                        <p class="text-muted f-15 my-2">
+                            National Polytechnic Institution.
+                        </p>
+                    </div>
+                    <!-- ----------------------------- EXP ITEMS END ------------------------------ -->
+
                 </div>
 
-              </div>
 
-              <div class="col-md-3 col-sm-6 col-xs-6 mix font  m-auto" data-toggle="modal" data-target="#my-modal-2">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-3.jpg " alt="" /></span>
-
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Corporate chat “eWesta”</h5>
-                    <p class="card-text">December, 2015</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-6 mix web  m-auto" data-toggle="modal" data-target="#my-modal-3">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-4.jpg " alt="" /></span>
-
-                  <div class="card-body px-0">
-                    <h5 class="card-title ">
-                      Restaraunt web app “Foody”
-                    </h5>
-                    <p class="card-text">May, 2014</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-6 mix ui  m-auto" data-toggle="modal" data-target="#my-modal-4">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-5.jpg " alt="" /></span>
-
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Game website “Stark”</h5>
-                    <p class="card-text">June, 2014</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-6 mix font  m-auto" data-toggle="modal" data-target="#my-modal-5">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-6.jpg " alt="" /></span>
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Blogger website “Te4h”</h5>
-                    <p class="card-text">April, 2014</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-3 col-sm-6 mix web  m-auto col-xs-6 " data-toggle="modal" data-target="#my-modal-6">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-7.jpg " alt="" /></span>
-
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Product website “Lamp”</h5>
-                    <p class="card-text">December, 2013</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-md-3 col-sm-6 mix ui m-auto col-xs-6 m-auto" data-toggle="modal"
-                data-target="#my-modal-7">
-
-                <div class="card border-0">
-                  <span class="img-inner">
-                    <img class="card-img img-fluid img-hover" src="image/portfolio/portfolio-8.jpg " alt="" /></span>
-
-                  <div class="card-body px-0">
-                    <h5 class="card-title">Blog web app “Zebra”</h5>
-                    <p class="card-text">March, 2013</p>
-                  </div>
-                </div>
-
-              </div>
             </div>
-          </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-sm-6 ">
+                    <p class="h3 my-3">Front End Design Skills</p>
+                    <div class="p-box state hover-state">
+
+
+                        <!-- ----------------------------- DESIGN ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">HTML</h5>
+                            <div class="progress mt-2 mx-4 " style="height: 9px;">
+                                <div class="progress-bar wow fadeInLeftBig " role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- DESIGN ITEMS END ------------------------------ -->
+
+
+                        <!-- ----------------------------- DESIGN ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">CSS</h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- DESIGN ITEMS END ------------------------------ -->
+
+
+                        <!-- ----------------------------- DESIGN ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">Bootstrap</h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- DESIGN ITEMS END ------------------------------ -->
+
+
+
+                        <!-- ----------------------------- DESIGN ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">Juqary </h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- DESIGN ITEMS END ------------------------------ -->
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-lg-6 col-sm-6 ">
+                    <p class="h3 my-3">Back End Development Skills</p>
+                    <div class="p-box state hover-state">
+
+
+                        <!-- ----------------------------- CODING ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">PHP</h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- CODING ITEMS END ------------------------------ -->
+
+
+
+                        <!-- ----------------------------- CODING ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">Mysql</h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- CODING ITEMS END ------------------------------ -->
+
+
+                        <!-- ----------------------------- CODING ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">Wordpress</h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 89%;" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- CODING ITEMS END ------------------------------ -->
+
+
+
+                        <!-- ----------------------------- CODING ITEMS START ------------------------------ -->
+                        <div class="mb-4 pb-2 ">
+                            <h5 class="my-4 mx-4">Javascript </h5>
+                            <div class="progress mt-2 mx-4" style="height: 9px;">
+                                <div class="progress-bar  wow fadeInLeftBig " role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------- CODING ITEMS START ------------------------------ -->
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- -----------------------END PORTFOLIO SECTION--------------- -->
+    </section>
 
-  <!-- -----------------------START FEEDBACK SECTION--------------- -->
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 EXP END                                 -->
+    <!-- ----------------------------------------------------------------------- -->
 
-  <section id="feedback" class="border-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="section-sidebar ">
-            <h2 class="point font-weight-bold">Feedback</h2>
-            <span class="text-muted f-15">
+
+
+
+
+
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             PROTFOLIO START                             -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <section id="portfolio" class="border-top wow fadeInRight">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 class="point lato-bold mb-3">Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-sort">
+
+                        <!-- ----------------------------------------------------------------------- -->
+                        <!--                                CONTROLS                                 -->
+                        <!-- ----------------------------------------------------------------------- -->
+
+                        <div class="button-group controls mix-control filter-button-group ">
+                            <a href="#all" class="control active pr-4  mr-2 text-muted border-0" data-filter="*">ALL PROJECTS</a>
+                            <a href="#web" class="control pr-4 mr-2  text-muted" data-filter=".web">
+                               WEB SITES</a>
+                            <a href="#html__template" class="control pr-4 mr-2 text-muted" data-filter=".html__template">HTML Template</a>
+
+                            <a href="#font" class="control  text-muted" data-filter=".font">FRONTEND</a>
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------------------- -->
+                        <!--                              CONTROLS END                               -->
+                        <!-- ----------------------------------------------------------------------- -->
+
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                           MODAL SECTION START                           -->
+                <!-- ----------------------------------------------------------------------- -->
+
+
+                <!-- -----------MODAL----------- -->
+                <div class="modal fade " id="my-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">96Bucks HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> April, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/96bucks01.png" alt="" />
+                                    <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/96bucks02.png" alt="" />
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact" data-target="#" class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/96Bucks.github.io" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL--END---------- -->
+
+
+                <!-- -----------MODAL-1---------- -->
+                <div class="modal fade " id="my-modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">E-Book HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> April, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-2">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/ebook01.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact" class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/E-book.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-1-END---------- -->
+
+                <!-- -----------MODAL-2---------- -->
+                <div class="modal fade " id="my-modal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Hamz HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> March, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-4">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/hamz01.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact"  class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/hamz.github.io/" target="_blank" class="btn gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-2-END---------- -->
+
+                <!-- -----------MODAL-3---------- -->
+                <div class="modal fade " id="my-modal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Kallyas HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> March, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/kallyas01.png" alt="" />
+                                    <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/kallyas03.png" alt="" />
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#" data-target="#contact" class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/Creative-agency.github.io/" target="_blank" class="btn gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-3-END---------- -->
+
+                <!-- -----------MODAL-4---------- -->
+                <div class="modal fade " id="my-modal-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Motor HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> May, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-3">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/motor01.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact" class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/motor.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-4-END---------- -->
+
+                <!-- -----------MODAL-5---------- -->
+                <div class="modal fade " id="my-modal-5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Natours HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> May, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/natorus01.png" alt="" />
+                                    <img class="img-fluid card-img mt-5 mb-5 " src="image/modal img/natorus05.png" alt="" />
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact"  class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/Natours.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-5-END---------- -->
+
+                <!-- -----------MODAL-6---------- -->
+                <div class="modal fade " id="my-modal-6" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Nexter HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> May, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-3">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/nexter.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact" class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/Nexter.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                    </span>>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-6-END---------- -->
+
+                <!-- -----------MODAL-7---------- -->
+                <div class="modal fade " id="my-modal-7" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Trilo HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> June, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-3">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/trilo.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+                    <a href="#contact"  class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+                    <a href="https://tarikulislamnahid.github.io/trilo.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-7-END---------- -->
+                <!-- -----------MODAL-8---------- -->
+                <div class="modal fade " id="my-modal-8" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg  " role="document">
+                        <div class="modal-content ">
+                            <div class="modal-body my-4 mx-3">
+                                <div class="modal-title ">
+                                    <span class="h1 ml-1 point lato bold">Strack HTML Template</span>
+                                </div>
+
+                                <div class="modal-info ml-1 mt-3">
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Stack</span>
+                                        <span class="text-muted f-15 pl-3">HTML, CSS, Bootstrap, Javascript, SVG</span>
+                                    </p>
+                                    <p>
+                                        <span class="text-uppercase font-weight-bold">Date</span>
+                                        <span class="text-muted f-15 pl-4"> June, 2020 </span>
+                                    </p>
+                                </div>
+                                <div class="modal-img mb-3">
+                                    <img class="img-fluid card-img mt-3 " src="image/modal img/strack01.png" alt="" />
+
+                                </div>
+                                <div class="about-btn">
+                                    <span class="contact-sw">
+    <a href="#contact"  class="btn contact-btn">CONTACT ME</a></span>
+                                    <span class="hover-gry">
+    <a href="https://tarikulislamnahid.github.io/strack.github.io/" target="_blank" class="btn  gry-btn">Click To Visit</a>
+  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -----------MODAL-8-END---------- -->
+                <!-- -------------------MODAL SECTION END----------------- -->
+            </div>
+            <div class="row mt-4 ">
+                <div class="col-lg-12">
+                    <div class="portfolio">
+                        <div class="row grid">
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item html__template m-auto" data-toggle="modal" data-target="#my-modal">
+
+                                <div class="card  border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/96bucks.png " alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">96Bucks HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item web m-auto" data-toggle="modal" data-target="#my-modal-1">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/ebook.png " alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">E-Book HTML Template”</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item font  m-auto" data-toggle="modal" data-target="#my-modal-2">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/hamz.png " alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Hamz HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item web  m-auto" data-toggle="modal" data-target="#my-modal-3">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/kallyas.png " alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title ">
+                                            Kallyas HTML Template
+                                        </h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item html__template  m-auto" data-toggle="modal" data-target="#my-modal-4">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/motor.png " alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Motor HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 element-item font  m-auto" data-toggle="modal" data-target="#my-modal-5">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/Natours.png " alt="" /></span>
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Natours HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 element-item web  m-auto col-xs-6 " data-toggle="modal" data-target="#my-modal-6">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/nexter.png" alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Nexter HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 element-item html__template m-auto col-xs-6 m-auto" data-toggle="modal" data-target="#my-modal-7">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/Trilo.png" alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Trilo HTML Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 element-item html__template m-auto col-xs-6 m-auto" data-toggle="modal" data-target="#my-modal-8">
+
+                                <div class="card border-0">
+                                    <span class="img-inner">
+                    <img class="card-img img-fluid img-hover" src="image/portfolio/strack.png" alt="" /></span>
+
+                                    <div class="card-body px-0">
+                                        <h5 class="card-title">Strack Html Template</h5>
+                                        <p class="card-text">PSD to HTML</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------END PORTFOLIO SECTION--------------- -->
+
+    <!-- -----------------------START FEEDBACK SECTION--------------- -->
+
+    <section id="feedback" class="border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="section-sidebar ">
+                        <h2 class="point font-weight-bold fadeInLeft">Feedback</h2>
+                        <span class="text-muted f-15">
               Take a look at the reviews of my customers and ensure the quality of my services.
           </div>
         </div>
         <div class="col-lg-8">
           <div class="meadia-content">
             <div class="row">
-              <div class="col-lg-12 border-bottom">
+
+
+              <div class="col-lg-12 border-bottom wow fadeInRight">
                 <div class="media">
                   <a class="d-flex " href="#">
                     <img class="img-fluid mx-4 media-img" src="image/media/feedback-1.jpg" alt="">
                   </a>
                   <div class="media-body">
                     <span class="h5 lato font-weight-bold">Stacey Don</span>
-                    <span class="pl-2 f-15 text-black-50"> President @ Coolor Studio</span>
-                    <div class="media-title text-muted mt-3">
-                      <p>"Considers problems as a challenge and enjoys finding creative yet appropriate solutions. Danny
-                        is able to work out his own solutions, but also works well with a group to solve problems.
-                        Performs most jobs well and has the habit of checking work outcomes. Danny is achieving
-                        excellence in some areas but in others is not yet achieving the highest standards.""</p>
+                        <span class="pl-2 f-15 text-black-50"> President @ Coolor Studio</span>
+                        <div class="media-title text-muted mt-3">
+                            <p>"Considers problems as a challenge and enjoys finding creative yet appropriate solutions. Danny is able to work out his own solutions, but also works well with a group to solve problems. Performs most jobs well and has the
+                                habit of checking work outcomes. Danny is achieving excellence in some areas but in others is not yet achieving the highest standards.""</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-
-
-            <div class="row">
-              <div class="col-lg-12 border-bottom mt-3">
-                <div class="media">
-                  <a class="d-flex " href="#">
-                    <img class="img-fluid mx-4 media-img" src="image/media/feedback-2.jpg" alt="">
-                  </a>
-                  <div class="media-body">
-                    <span class="h5 lato font-weight-bold">Anson Shura</span>
-                    <span class="pl-2 f-15 text-black-50"> Project Manager @ Motion Studio</span>
-                    <div class="media-title text-muted mt-3">
-                      <p>“He will always try to do what is required, even if it means performing tasks that are not in
-                        the job description or if required to do extra work unexpectedly. However, may sometimes
-                        complain about the extra load. Aiming for a top job in the organization. He sets very high
-                        standards, aware that this will bring attention and promotion.”</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="row">
-              <div class="col-lg-12 mt-3">
-                <div class="media">
-                  <a class="d-flex " href="#">
-                    <img class="img-fluid mx-4 media-img" src="image/media/feedback-3.jpg" alt="">
-                  </a>
-                  <div class="media-body">
-                    <span class="h5 lato font-weight-bold">Stacey Don</span>
-                    <span class="pl-2 f-15 text-black-50"> President @ Coolor Studio</span>
-                    <div class="media-title text-muted mt-3">
-                      <p>"Considers problems as a challenge and enjoys finding creative yet appropriate solutions. Danny
-                        is able to work out his own solutions, but also works well with a group to solve problems.
-                        Performs most jobs well and has the habit of checking work outcomes. Danny is achieving
-                        excellence in some areas but in others is not yet achieving the highest standards.""</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- -----------------------END FEEDBACK SECTION--------------- -->
-
-  <!-- -----------------------START TESTIMONIAL SECTION--------------- -->
-  <section id="testimonial" class="border-top bg-light">
-    <div class="container">
-<div class="row">
-  <div class="col-lg-12 text-center">
-    <p class="text-muted my-3">KIND WORDS</p>
-    <h3 class="my-3 font-weight-bold point">TESTIMONIAL</h3>
-  </div>
-</div>
-
-      <div class="row my-5">
-        <div class="col-lg-12 ">
 
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-
-            <div class="row">
-              <div class="col-lg-8 offset-2">
-
-
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="card border-0  text-center ">
-
-                      <div class="card-body ">
-                        <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle"
-                          src="image/media/feedback-1.jpg" alt="">
-                        <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts
-                          Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                        <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div class="carousel-item ">
-                    <div class="card border-0  text-center ">
-
-                      <div class="card-body ">
-                        <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle"
-                          src="image/media/feedback-2.jpg" alt="">
-                        <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts
-                          Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                        <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div class="carousel-item ">
-                    <div class="card border-0 rounded   text-center ">
-
-                      <div class="card-body ">
-                        <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle"
-                          src="image/media/feedback-3.jpg" alt="">
-                        <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts
-                          Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
-                        <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <a class="carousel-control-prev icon" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <i aria-hidden="true" class="fa fa-chevron-left text-dark f-40 border-0"></i>
-
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-
-              <i aria-hidden="true" class="fa fa-chevron-right text-dark f-40 border-0"></i>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-
-
-
-    </div>
-  </section>
-  <!-- -----------------------END TESTIMONIAL SECTION--------------- -->
-
-  <!-- -----------------------START CONTACT SECTION--------------- -->
-
-  <section id="contact" class="border-top">
-    <div class="container">
-      <div class="row">
-       <div class="col-lg-12">
-         <p class="text-center text-muted mb-3 mt-5">SAY HELLO</p>
-         <h4 class="text-center mb-5">CONTACT</h4>
-         <div class="row">
-           <div class="col-lg-6 ">
-           <div class="input-group  ">
-            
-             <input class="form-control p-4 py-3 " type="text" name="" placeholder="Your Name*" aria-label="Name ">
-
-           </div>
-           </div>
-
-           <div class="col-lg-6 ">
-              <div class="input-group">
-               
-                <input class="form-control p-4 py-3" type="email" name="" placeholder="Your Email*" aria-label="Email">
-   
-              </div>
-              </div>
-         </div>
-       </div>
-
-      </div>
-<div class="row">
-  <div class="col-lg-12">
-    <div class="form-group">
-      
-      <textarea class="form-control p-4 my-5" placeholder="Youre Massage..." id="" rows="6"></textarea>
-    </div>
-
-    <div class="about-btn text-center">
-        <span class="contact-sw">
-          <a href="#contact" data-target="#" class="btn contact-btn"> SUBMIT</a></span>
-      
-      </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-  <!-- -----------------------END CONTACT SECTION--------------- -->
-
-
-  <!-- -----------------------START FOOTER SECTION--------------- -->
-
-
-  <section id="footer">
-    <footer class="footer ">
-      <div class="container">
         <div class="row">
-          <div class="col-lg-12 py-3 text-center">
-            <span class="lato">Copyright 2017 Tarikul.</span>
-          </div>
+            <div class="col-lg-12 border-bottom mt-3 wow fadeInRight">
+                <div class="media">
+                    <a class="d-flex " href="#">
+                        <img class="img-fluid mx-4 media-img" src="image/media/feedback-2.jpg" alt="">
+                    </a>
+                    <div class="media-body">
+                        <span class="h5 lato font-weight-bold">Anson Shura</span>
+                        <span class="pl-2 f-15 text-black-50"> Project Manager @ Motion Studio</span>
+                        <div class="media-title text-muted mt-3">
+                            <p>“He will always try to do what is required, even if it means performing tasks that are not in the job description or if required to do extra work unexpectedly. However, may sometimes complain about the extra load. Aiming for
+                                a top job in the organization. He sets very high standards, aware that this will bring attention and promotion.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
-  </section>
-
-  <!--------------------------SCROLL TO TOP------------- -->
-
-  <a href="#" class="go-top"><i class="fa fa-arrow-up"></i></a>
-
-  <!-- -----------------------END CONTACT SECTION--------------- -->
 
 
-  <script src="js/jquery.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/mixitup.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
+        <div class="row">
+            <div class="col-lg-12 mt-3 wow fadeInRight">
+                <div class="media">
+                    <a class="d-flex " href="#">
+                        <img class="img-fluid mx-4 media-img" src="image/media/feedback-3.jpg" alt="">
+                    </a>
+                    <div class="media-body">
+                        <span class="h5 lato font-weight-bold">Stacey Don</span>
+                        <span class="pl-2 f-15 text-black-50"> President @ Coolor Studio</span>
+                        <div class="media-title text-muted mt-3">
+                            <p>"Considers problems as a challenge and enjoys finding creative yet appropriate solutions. Danny is able to work out his own solutions, but also works well with a group to solve problems. Performs most jobs well and has the
+                                habit of checking work outcomes. Danny is achieving excellence in some areas but in others is not yet achieving the highest standards.""</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- -----------------------END FEEDBACK SECTION--------------- -->
 
-    // ------------------------mixdup-------------
-    var containerEl = document.querySelector('#portfolio');
+    <!-- -----------------------START TESTIMONIAL SECTION--------------- -->
+    <section id="testimonial" class="border-top bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="text-muted my-3">KIND WORDS</p>
+                    <h3 class="my-3 font-weight-bold point">TESTIMONIAL</h3>
+                </div>
+            </div>
 
-    var mixer = mixitup(containerEl);
-
-    // ------------------------mixdup-------------
-
-    //-------wow js-----
-    new WOW().init();
-    // ------------------------SCROLL TO TOP-------------
-
-    $(document).ready(function () {
-      // Show or hide the sticky footer button
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-          $('.go-top').fadeIn(200);
-        } else {
-          $('.go-top').fadeOut(200);
-        }
-      });
-
-      // Animate the scroll to top
-      $('.go-top').click(function (event) {
-        event.preventDefault();
-
-        $('html, body').animate({
-          scrollTop: 0
-        }, 700);
-      })
-    });
-    // ------------------------SCROLL TO TOP-------------
+            <div class="row my-5">
+                <div class="col-lg-12 ">
 
 
-    // ------------------------SMOOTH NAV-------------
-    $('#my-nav a').click(function (e) {
-      e.preventDefault();
-      var hash = this.hash;
-      var position = $(hash).offset().top;
-      $('html').animate({
-        scrollTop: position
-      }, 600)
-    });
-    // ------------------------SMOOTH NAV-------------
-    // ------------------------SCROLL TO HIDE-------------
-    var lastScrollTop = 0;
-    navbar + document.getElementById("navbar");
-    window.addEventListener("scroll", function () {
-      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrollTop > lastScrollTop) {
-        navbar.style.top = "-100px";
-      } else {
-        navbar.style.top = "0";
-      }
-      lastScrollTop = scrollTop
-    });
-    // ------------------------SCROLL TO HIDE-------------
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
 
-  </script>
+                        <div class="row">
+                            <div class="col-lg-8 offset-2">
+
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card border-0  text-center ">
+
+                                            <div class="card-body ">
+                                                <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle" src="image/media/feedback-1.jpg" alt="">
+                                                <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                                <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="card border-0  text-center ">
+
+                                            <div class="card-body ">
+                                                <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle" src="image/media/feedback-2.jpg" alt="">
+                                                <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                                <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="card border-0 rounded   text-center ">
+
+                                            <div class="card-body ">
+                                                <img class="img-fluid img-thumbnail shadow-sm testImg my-3 rounded-circle" src="image/media/feedback-3.jpg" alt="">
+                                                <p class="card-text p-3 text-muted">"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                                                <p class="font-weight-bold">- Anj Joseph, Web Developer</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <a class="carousel-control-prev icon" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <i aria-hidden="true" class="fa fa-chevron-left text-dark f-40 border-0"></i>
+
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+
+                            <i aria-hidden="true" class="fa fa-chevron-right text-dark f-40 border-0"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- -----------------------END TESTIMONIAL SECTION--------------- -->
+
+    <!-- -----------------------START CONTACT SECTION--------------- -->
+
+    <section id="contact" class="border-top ">
+        <div class="container">
+            <form action="<?php echo SERVER['PHP_SELF']?>" method="post">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text-center text-muted mb-3 mt-5">SAY HELLO</p>
+                        <h4 class="text-center mb-5">CONTACT</h4>
+                        <div class="row">
+                            <div class="col-lg-6 ">
+                                <div class="input-group  ">
+
+                                    <input class="form-control p-4 py-3 " type="text" name="" placeholder="Your Name*" aria-label="Name ">
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 ">
+                                <div class="input-group">
+
+                                    <input class="form-control p-4 py-3" type="email" name="" placeholder="Your Email*" aria-label="Email">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+
+                            <textarea class="form-control p-4 my-5" placeholder="Youre Massage..." id="" rows="6"></textarea>
+                        </div>
+
+                        <div class="about-btn text-center">
+                            <span class="contact-sw">
+          <a href="#contact" data-target="#" class="btn contact-btn"> SUBMIT</a></span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!-- -----------------------END CONTACT SECTION--------------- -->
+
+
+    <!-- -----------------------START FOOTER SECTION--------------- -->
+
+
+    <section id="footer">
+        <footer class="footer ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 py-3 text-center">
+                        <span class="lato">Copyright 2017 Tarikul.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!--------------------------SCROLL TO TOP------------- -->
+
+    <a href="#" class="go-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- -----------------------END FOOTER SECTION--------------- -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- <script src="js/element-itemitup.min.js"></script> -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
